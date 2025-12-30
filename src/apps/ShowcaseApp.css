@@ -1,0 +1,58 @@
+.showcase-window {
+  height: 100%;
+  background: #f4f4f0;
+  font-family: "Times New Roman", serif;
+}
+
+.showcase-body {
+  display: flex;
+  height: 100%;
+}
+
+/* LEFT NAV */
+.showcase-nav {
+  width: 180px;
+  padding: 12px;
+  background: #efefef;
+  border-right: 2px solid #999;
+}
+
+.showcase-nav h1 {
+  margin: 0;
+  font-size: 26px;
+}
+
+.showcase-nav h3 {
+  margin-top: 4px;
+  font-weight: normal;
+}
+
+.showcase-nav nav {
+  margin-top: 20px;
+}
+
+.showcase-nav nav div {
+  margin-bottom: 10px;
+  color: #0000ee;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.showcase-nav nav .active {
+  font-weight: bold;
+}
+
+/* MAIN CONTENT */
+.showcase-content {
+  flex: 1;
+  padding: 20px;
+  overflow-y: auto;
+  font-size: 15px;
+}
+
+.showcase-content hr {
+  border: none;
+  border-top: 1px solid black;
+  margin: 20px 0;
+}
+

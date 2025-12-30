@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  font-family: "Courier New", monospace;
+  background-color: black;
+  color: white;
+  overflow: hidden;
+}
+
+/* Intro Overlay */
+#introOverlay {
+  position: fixed;
+  inset: 0;
+  background: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+  transition: opacity 1s ease;
+}
+
+#introBox {
+  border: 8px solid white;
+  padding: 0em 1em;
+  max-width: 600px;
+}
+
+#introText {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+#introText::after {
+  content: " _";
+  animation: blink 0.7s steps(1) infinite;
+}
+
+@keyframes blink {
+  50% { opacity: 0; }
+}
+
+#startBtn {
+  display: block;
+  margin: 1em auto 0;
+  background: none;
+  color: white;
+  border: 3px solid white;
+  padding: 0.5em 1.2em;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+#startBtn:hover {
+  background: white;
+  color: black;
+}

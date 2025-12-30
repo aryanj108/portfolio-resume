@@ -1,0 +1,49 @@
+.skills-app {
+  padding: 20px;
+  font-family: "Times New Roman", serif;
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 30px;
+  row-gap: 10px;  /* Increased from 14px to 25px for more space between rows */
+  margin-bottom: 30px;  /* Add space after each section */
+}
+
+.skills-app h2 {
+  font-size: 40px; /* bigger than current */
+  font-weight: bold;
+  margin-bottom: 17px;
+  margin-top: 0px;
+}
+
+
+.skill {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.skill img {
+  width: 40px;
+  height: 40px;
+}
+
+.skill span {
+  font-size: 18px;  /* ⬅️ BIGGER TEXT */
+}
+
+.window-content::-webkit-scrollbar {
+  width: 14px;
+}
+
+.window-content::-webkit-scrollbar-thumb {
+  background: #c0c0c0;
+  border: 2px outset #eee;
+}
+
+.window-content::-webkit-scrollbar-track {
+  background: #e0e0e0;
+}
+

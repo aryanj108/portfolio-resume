@@ -1,0 +1,70 @@
+.desktop {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  padding: 20px;
+}
+
+/* Desktop icons */
+.icon {
+  width: 80px;
+  text-align: center;
+  color: white;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.icon span {
+  display: block;
+  margin-top: 5px;
+}
+
+/* Windows */
+.window {
+  position: absolute;
+  top: 80px;
+  left: 100px;
+  width: 420px;
+  background: #c0c0c0;
+  border: 3px solid black;
+  box-shadow: 6px 6px black;
+}
+
+.window-header {
+  background: navy;
+  color: white;
+  padding: 6px;
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+}
+
+.window-header button {
+  background: red;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.window-content {
+  padding: 15px;
+  background: #e0e0e0;
+}
+
+/* Buttons */
+button {
+  font-family: "Courier New", monospace;
+  margin: 5px;
+  padding: 6px 10px;
+  border: 2px solid black;
+  background: #c0c0c0;
+  cursor: pointer;
+}
+
+button:active {
+  box-shadow: inset 2px 2px black;
+}
+
+.button-row {
+  margin-top: 10px;
+}
